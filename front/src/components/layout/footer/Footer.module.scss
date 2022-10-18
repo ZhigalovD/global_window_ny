@@ -1,0 +1,141 @@
+.footer {
+  &__top {
+    background: rgba(196, 196, 196, 0.2);
+    padding: 275px 0 123px;
+
+    @include tablet {
+      padding: 20px 0 20px;
+    }
+  }
+
+  &__about_block {
+    display: flex;
+    flex-wrap: wrap;
+
+    @include tablet {
+      justify-content: center;
+    }
+
+    &--text {
+      max-width: 330px;
+      width: 100%;
+      margin-right: 60px;
+
+      @include tablet {
+        text-align: center;
+        margin-right: 0;
+        margin-bottom: 20px;
+      }
+
+      h2 {
+        font-size: 53px;
+        line-height: 50px;
+        font-weight: 400;
+        font-family: 'Teko', sans-serif;
+        text-transform: uppercase;
+        margin-bottom: 32px;
+
+        @include tablet {
+          font-size: 34px;
+        }
+      }
+
+      p {
+        font-size: $size-font-main;
+        line-height: 25px;
+        margin: 0;
+        @include tablet {
+          font-size: 14px;
+        }
+      }
+    }
+
+    &--image {
+      img {
+        max-width: 750px;
+        width: 100%;
+      }
+    }
+  }
+
+  .office_hours {
+    font-weight: bold;
+    margin-top: 40px;
+  }
+
+  &__contacts {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 40px;
+
+    @include tablet {
+      display: block;
+    }
+
+    &--title {
+      font-size: $size-font-main;
+      line-height: 21px;
+      font-weight: 700;
+      text-transform: uppercase;
+      margin-bottom: 34px;
+    }
+
+    &--title-desktop {
+      @include tablet {
+        display: none;
+      }
+    }
+  }
+
+  &__contacts_wrap {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    min-height: 50px;
+
+    @include tablet {
+      display: block;
+    }
+  }
+
+  &__contacts_wrap_item {
+    display: flex;
+    align-items: center;
+    color: #000;
+    font-weight: 700;
+    font-size: 16px;
+    margin-right: 40px;
+
+    @include tablet {
+      margin-bottom: 12px;
+    }
+
+    p {
+      margin: 0 0 0 10px;
+    }
+  }
+
+  &__bottom {
+    padding: 42px 0;
+  }
+
+  &__bottom_wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    color: #393939;
+    opacity: .7;
+    font-size: 12px;
+    line-height: 14px;
+
+    a {
+      color: #393939;
+    }
+  }
+}
+
+a.footer__contacts_wrap_item:hover {
+  color: $color-main;
+}

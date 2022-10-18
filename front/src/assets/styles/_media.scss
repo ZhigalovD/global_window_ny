@@ -1,0 +1,28 @@
+$mobileM: 374px;
+$mobileL: 424px;
+$tablet: 767px;
+$notebook: 1023px;
+
+@mixin mobileM {
+  @media only screen and (max-width: $mobileM) {
+    @content;
+  }
+}
+
+@mixin mobileL {
+  @media only screen and (max-width: $mobileL) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media only screen and (max-width: $tablet) {
+    @content;
+  }
+}
+
+@mixin notebook {
+  @media only screen and (max-width: $notebook) {
+    @content;
+  }
+}

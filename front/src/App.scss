@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@400;500;700&display=swap');
+@import "~antd/dist/antd.css";
+
+* {
+    font-family: $font-stack;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1210px;
+    padding: 0 20px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.barsMenu {
+    float: right;
+    height: 32px;
+    padding: 6px;
+    margin-top: 8px;
+    display: none;
+    background: none;
+    border-color: $color-main;
+
+    &:hover {
+        background: none;
+        border-color: $color-main;
+    }
+
+    @include notebook {
+        display: inline-block;
+    }
+}
+
+.barsMenu>span {
+    display: block;
+}
+
+.barsBtn {
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: $color-main;
+    position: relative;
+}
+
+.barsBtn:after,
+.barsBtn:before {
+    content: attr(x);
+    width: 20px;
+    position: absolute;
+    top: -6px;
+    left: 0;
+    height: 2px;
+    background: $color-main;
+}
+
+.barsBtn:after {
+    top: auto;
+    bottom: -6px;
+}
+
+.ant-drawer-content-wrapper {
+    width: 320px!important;
+}
+
+.desktop {
+    @include tablet {
+        display: none;
+    }
+}
+
+.mobile {
+    display: none;
+    @include tablet {
+        display: inherit;
+    }
+}
