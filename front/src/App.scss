@@ -79,3 +79,69 @@
         display: inherit;
     }
 }
+
+.button {
+    display: inline-block;
+    padding: 20px 70px;
+    background-color: #F97850;
+    font-size: $size-font-main;
+    font-weight: $font-weight-bold;
+    color: $color-light;
+    cursor: pointer;
+    text-align: center;
+
+    &:hover {
+        opacity: 0.7;
+    }
+}
+
+.section_top {
+    background-size: cover;
+    padding-bottom: 200px;
+    background-repeat: no-repeat;
+
+    @include tablet {
+        background-size: cover;
+        text-align: center;
+        padding-bottom: 118px;
+    }
+
+    &__title {
+        margin: 0 0 20px 0;
+        padding-top: 118px;
+
+        p {
+            font-family: 'Teko', sans-serif;
+            font-size: $size-font-big;
+            font-weight: 400;
+            text-transform: uppercase;
+            line-height: 62px;
+            margin: 0;
+
+            @include tablet {
+                font-size: 34px;
+                line-height: 34px;
+            }
+        }
+    }
+
+    &__subtitle {
+        font-size: $size-font-main;
+
+        @include tablet {
+            font-size: 14px;
+        }
+    }
+
+    &__content {
+        max-width: 500px;
+
+        @include tablet {
+            max-width: 100%;
+        }
+    }
+
+    &__button {
+        margin-top: 30px;
+    }
+}
