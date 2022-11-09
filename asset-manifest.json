@@ -1,31 +1,31 @@
 {
   "files": {
     "main.css": "/global_window_ny/static/css/main.1cb8e5ca.css",
-    "main.js": "/global_window_ny/static/js/main.6d19beb0.js",
-    "static/media/garden_window_bg.png": "/global_window_ny/static/media/garden_window_bg.239f67f6794ab7394a2f.png",
-    "static/media/entry_doors_bg.png": "/global_window_ny/static/media/entry_doors_bg.9e36a65cc5df00b496d9.png",
-    "static/media/patio_doors_bg.png": "/global_window_ny/static/media/patio_doors_bg.9b98137886b1fa056459.png",
-    "static/media/storm_doors_bg.png": "/global_window_ny/static/media/storm_doors_bg.19815422305ff234edb1.png",
-    "static/media/sliding_window_bg.png": "/global_window_ny/static/media/sliding_window_bg.697e7e609999b01e58c9.png",
-    "static/media/sliding_doors_bg.png": "/global_window_ny/static/media/sliding_doors_bg.86eea77502b6c6d9b3f7.png",
-    "static/media/hero-bg.png": "/global_window_ny/static/media/hero-bg.947b21afddb8cbfee67c.png",
-    "static/media/casement_window_bg.png": "/global_window_ny/static/media/casement_window_bg.e7b54c3d59c8f0f66be2.png",
-    "static/media/bay_window_bg.png": "/global_window_ny/static/media/bay_window_bg.f503ebcf137836790714.png",
-    "static/media/double_window_bg.png": "/global_window_ny/static/media/double_window_bg.c880afaaaf7eae7209f0.png",
-    "static/media/merlin_38890910-2.jpeg": "/global_window_ny/static/media/merlin_38890910-2.9c0535aa287f1e161b69.jpeg",
+    "main.js": "/global_window_ny/static/js/main.db87c050.js",
+    "static/media/garden_window_bg.png": "/global_window_ny/static/media/garden_window_bg.0ccc52faa4ab463b3b41.png",
     "static/media/vinyl_window_bg.png": "/global_window_ny/static/media/vinyl_window_bg.3cd8b5d06046baf1f8f7.png",
-    "static/media/interior_doors_bg.png": "/global_window_ny/static/media/interior_doors_bg.f8dbc13acf26d1a75b13.png",
-    "static/media/awning_window_bg.png": "/global_window_ny/static/media/awning_window_bg.b0469dcc7db8e031a679.png",
-    "static/media/panoramic_window_bg.png": "/global_window_ny/static/media/panoramic_window_bg.5ad99e016c3e195df9b5.png",
-    "static/media/unstandart_window_bg.png": "/global_window_ny/static/media/unstandart_window_bg.6c468dd3714c6d78482a.png",
-    "static/media/shower_door_bg.jpeg": "/global_window_ny/static/media/shower_door_bg.55623b398c6a9da12427.jpeg",
+    "static/media/entry_doors_bg.png": "/global_window_ny/static/media/entry_doors_bg.3fdc472f6b09cd712c7a.png",
+    "static/media/storm_doors_bg.png": "/global_window_ny/static/media/storm_doors_bg.065be81642d7a0e05f71.png",
+    "static/media/hero-bg.png": "/global_window_ny/static/media/hero-bg.9e33228569f61ce5c968.png",
+    "static/media/patio_doors_bg.png": "/global_window_ny/static/media/patio_doors_bg.19e34ffe5843a1254495.png",
+    "static/media/sliding_window_bg.png": "/global_window_ny/static/media/sliding_window_bg.5888c4b1d1ae63c18e2d.png",
+    "static/media/bay_window_bg.png": "/global_window_ny/static/media/bay_window_bg.17685d1328417fe00330.png",
+    "static/media/sliding_doors_bg.png": "/global_window_ny/static/media/sliding_doors_bg.1de93de41c119d3e7c3a.png",
+    "static/media/double_window_bg.png": "/global_window_ny/static/media/double_window_bg.67072e35d6790c282d9a.png",
+    "static/media/casement_window_bg.png": "/global_window_ny/static/media/casement_window_bg.6b04d6fb711da193f925.png",
+    "static/media/merlin_38890910-2.jpeg": "/global_window_ny/static/media/merlin_38890910-2.6a027e7b199dd2f7e29c.jpeg",
+    "static/media/interior_doors_bg.png": "/global_window_ny/static/media/interior_doors_bg.c386738987e0897413c3.png",
+    "static/media/awning_window_bg.png": "/global_window_ny/static/media/awning_window_bg.28fc565a09c58f3701c1.png",
+    "static/media/panoramic_window_bg.png": "/global_window_ny/static/media/panoramic_window_bg.4abff57961e0726d645a.png",
+    "static/media/unstandart_window_bg.png": "/global_window_ny/static/media/unstandart_window_bg.41fbecf202fb90fc73be.png",
+    "static/media/shower_door_bg.jpeg": "/global_window_ny/static/media/shower_door_bg.e8d444492ed0022f2203.jpeg",
     "static/media/logo.svg": "/global_window_ny/static/media/logo.3076426e0215f1ebd3d98f1de9a52b83.svg",
     "index.html": "/global_window_ny/index.html",
     "main.1cb8e5ca.css.map": "/global_window_ny/static/css/main.1cb8e5ca.css.map",
-    "main.6d19beb0.js.map": "/global_window_ny/static/js/main.6d19beb0.js.map"
+    "main.db87c050.js.map": "/global_window_ny/static/js/main.db87c050.js.map"
   },
   "entrypoints": [
     "static/css/main.1cb8e5ca.css",
-    "static/js/main.6d19beb0.js"
+    "static/js/main.db87c050.js"
   ]
 }
