@@ -2,6 +2,9 @@ import React, {FC} from 'react';
 import bay_window_bg from "../../assets/images/bay_window_bg.png";
 import Button from "../../components/button/Button";
 import SectionTop from "../../sections/section_top/SectionTop";
+import guarant_window_left from "../../assets/images/guarant-window-left.png";
+import guarant_window_right from "../../assets/images/guarant-window-right.png";
+import SectionGuarantee from "../../sections/section_guarantee/SectionGuarantee";
 
 const BayWindow: FC = () => {
     return (
@@ -17,6 +20,12 @@ const BayWindow: FC = () => {
                 </p>
                 <Button className={"section_top__button"}>GET PRICE</Button>
             </SectionTop>
+            <SectionGuarantee
+                imgLeft={guarant_window_left}
+                imgRight={guarant_window_right}
+                installation_periods={1}
+                on_products_years={10}
+            />
         </div>
     );
 };
