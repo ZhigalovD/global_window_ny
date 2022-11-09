@@ -2,7 +2,7 @@
   "name": "front",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://zhigalovd.github.io/global_window_ny/",
+  "homepage": ".",
   "dependencies": {
     "@craco/craco": "^7.0.0-alpha.8",
     "@testing-library/jest-dom": "^5.16.5",
