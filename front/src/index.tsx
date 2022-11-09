@@ -11,7 +11,7 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <Provider store={store}>
-      <BrowserRouter basename={"/global_window_ny"}>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
           <App />
       </BrowserRouter>
   </Provider>
