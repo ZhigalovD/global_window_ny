@@ -2,6 +2,7 @@
   "name": "front",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://zhigalovd.github.io/global_window_ny/front/",
   "dependencies": {
     "@craco/craco": "^7.0.0-alpha.8",
     "@testing-library/jest-dom": "^5.16.5",
@@ -16,6 +17,7 @@
     "@types/redux-thunk": "^2.1.0",
     "antd": "^4.23.5",
     "axios": "^1.1.2",
+    "gh-pages": "^4.0.0",
     "node-sass": "^7.0.3",
     "normalize.css": "^8.0.1",
     "react": "^18.2.0",
@@ -32,6 +34,8 @@
   "scripts": {
     "start": "craco start",
     "build": "craco build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "craco test",
     "eject": "craco eject"
   },
