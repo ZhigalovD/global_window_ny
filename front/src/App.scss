@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Teko:wght@400;500;700&display=swap');
 @import "~antd/dist/antd.css";
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
 
 * {
     font-family: $font-stack;
@@ -253,5 +255,199 @@
             font-size: $size-font-large;
             line-height: 20px;
         }
+    }
+}
+
+.section_windows_delivery {
+
+    &__content {
+        background: #75C9EB;
+        border-radius: 10px;
+        padding: 0 0 0 66px;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+
+        @include tablet {
+            display: block;
+            padding: 40px 20px;
+            text-align: center;
+        }
+    }
+
+    &__car {
+        flex: 1;
+        img {
+            width: 100%;
+            @include tablet {
+                max-width: 300px;
+            }
+        }
+    }
+
+    &__title {
+        margin: 0;
+        p {
+            font-family: 'Teko', sans-serif;
+            font-size: $size-font-big;
+            font-weight: $font-weight-regular;
+            text-transform: uppercase;
+            line-height: 62px;
+            margin: 0;
+            color: $color-light;
+
+            @include tablet {
+                font-size: 34px;
+                line-height: 34px;
+            }
+        }
+        span {
+            font-size: $size-font-main;
+            max-width: 393px;
+            width: 100%;
+            display: block;
+            color: $color-light;
+            @include tablet {
+                display: inline-block;
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+.section_contact_us {
+    margin-top: 100px;
+    margin-bottom: 20px;
+    @include tablet {
+        margin-top: 50px;
+    }
+    &__content {
+        background: #75C9EB;
+        border-radius: 10px;
+        padding: 140px 60px;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        @include tablet {
+            display: block;
+            padding: 40px 20px;
+            text-align: center;
+        }
+    }
+
+    &__right {
+        margin: 0 40px;
+        @include tablet {
+            margin: 0;
+        }
+    }
+
+    &__title_wrap {
+        margin: 0 40px;
+        @include tablet {
+            margin-bottom: 20px;
+        }
+    }
+
+    &__title {
+        margin: 0;
+        p {
+            font-family: 'Teko', sans-serif;
+            font-size: $size-font-big;
+            font-weight: $font-weight-regular;
+            text-transform: uppercase;
+            line-height: 62px;
+            margin: 0;
+            color: $color-dark;
+
+            @include tablet {
+                font-size: 34px;
+                line-height: 34px;
+            }
+        }
+    }
+
+    &__subtitle {
+        margin: 0;
+        p {
+            font-size: 24px;
+            font-weight: $font-weight-bold;
+            text-transform: uppercase;
+            line-height: 28px;
+            margin: 0;
+            color: $color-dark;
+
+            @include tablet {
+                font-size: 14px;
+                line-height: 16px;
+            }
+        }
+    }
+}
+
+.section_slider {
+    margin-bottom: 100px;
+    @include tablet {
+        margin-bottom: 50px;
+    }
+    &__top {
+        p {
+            font-family: 'Teko', sans-serif;
+            font-size: $size-font-big;
+            font-weight: $font-weight-regular;
+            text-transform: uppercase;
+            line-height: 62px;
+            margin: 0;
+            color: $color-dark;
+            @include tablet {
+                font-size: 34px;
+                line-height: 34px;
+            }
+        }
+    }
+    &__content {
+        img {
+            width: 100%;
+            padding: 0 10px;
+        }
+    }
+}
+
+.slick-next {
+    right: 0!important;
+    top: -30px!important;
+    @include tablet {
+        right: -20px!important;
+        top: 50%!important;
+    }
+}
+
+.slick-prev {
+    right: 50px!important;
+    top: -30px!important;
+    left: auto!important;
+    @include tablet {
+        right: auto!important;
+        top: 50%!important;
+        left: -20px!important;
+    }
+}
+
+.slick-prev:before, .slick-next:before {
+    color: $color-main!important;
+    font-size: 50px!important;
+    @include tablet {
+        font-size: 30px!important;
+    }
+}
+
+.slick-prev, .slick-next {
+    width: 50px!important;
+    height: 50px!important;
+    @include tablet {
+        width: 30px!important;
+        height: 30px!important;
     }
 }

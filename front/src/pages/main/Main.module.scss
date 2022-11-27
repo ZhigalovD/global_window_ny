@@ -1,14 +1,19 @@
 .main {
   min-height: 700px;
+  margin-bottom: 100px;
   @include tablet {
     min-height: 400px;
     background-size: cover;
+    margin-bottom: 50px;
   }
 
   &__hero--title {
     margin: 0;
     padding-top: 118px;
-
+    padding-bottom: 200px;
+    @include tablet {
+      padding-bottom: 80px;
+    }
     p {
       font-family: 'Teko', sans-serif;
       font-size: $size-font-big;

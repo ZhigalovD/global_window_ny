@@ -4,18 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5efca016-62fc-490f-9b46-01d98d746e11" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/front/src/sections/section_guarantee/SectionGuarantee.tsx" afterDir="false" />
+    <list default="true" id="5efca016-62fc-490f-9b46-01d98d746e11" name="Changes" comment="feat: basename">
+      <change afterPath="$PROJECT_DIR$/front/src/sections/section_contact_us/SectionContactUs.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/sections/section_slider/SectionSlider.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/sections/section_windows_delivery/SectionWindowsDelivery.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/front/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/App.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/components/layout/navbar/NavBar.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/layout/navbar/NavBar.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/components/layout/navbar/NavBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/layout/navbar/NavBar.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front/src/pages/awning-window/AwningWindow.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/pages/awning-window/AwningWindow.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front/src/pages/bay-window/BayWindow.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/pages/bay-window/BayWindow.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front/src/pages/casement-window/CasementWindow.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/pages/casement-window/CasementWindow.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front/src/pages/double-window/DoubleWindow.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/pages/double-window/DoubleWindow.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front/src/pages/entry-doors/EntryDoors.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/pages/entry-doors/EntryDoors.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front/src/pages/garden-window/GardenWindow.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/pages/garden-window/GardenWindow.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/pages/interior-doors/InteriorDoors.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/pages/interior-doors/InteriorDoors.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/pages/main/Main.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/pages/main/Main.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/pages/main/Main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/pages/main/Main.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front/src/pages/panoramic-window/PanoramicWindow.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/pages/panoramic-window/PanoramicWindow.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/pages/patio-doors/PatioDoors.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/pages/patio-doors/PatioDoors.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/pages/shower-door/ShowerDoor.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/pages/shower-door/ShowerDoor.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/pages/sliding-doors/SlidingDoors.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/pages/sliding-doors/SlidingDoors.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front/src/pages/sliding-window/SlidingWindow.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/pages/sliding-window/SlidingWindow.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/pages/storm-doors/StormDoors.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/pages/storm-doors/StormDoors.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front/src/pages/unstandart-window/UnstandartWindow.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/pages/unstandart-window/UnstandartWindow.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front/src/pages/vinyl-window/VinylWindow.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/pages/vinyl-window/VinylWindow.tsx" afterDir="false" />
     </list>
@@ -48,19 +61,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="ts.external.directory.path" value="$PROJECT_DIR$/front/node_modules/typescript/lib" />
-    <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/deniszhigalov/Documents/projects/global_window_ny",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "/Users/deniszhigalov/Documents/projects/global_window_ny/front/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -69,7 +84,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1668019850414</updated>
-      <workItem from="1668019853618" duration="6362000" />
+      <workItem from="1668019853618" duration="7325000" />
+      <workItem from="1668087697570" duration="636000" />
+      <workItem from="1669558115582" duration="13585000" />
     </task>
     <task id="LOCAL-00001" summary="feat: basename">
       <created>1668019967354</created>
@@ -113,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668022084065</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="feat: Section Guarantee">
+      <created>1668026417970</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1668026417970</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,6 +156,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: basename" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: basename" />
+    <MESSAGE value="feat: Section Guarantee" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Section Guarantee" />
   </component>
 </project>

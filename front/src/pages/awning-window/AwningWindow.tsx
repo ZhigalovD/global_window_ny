@@ -1,10 +1,14 @@
 import React, {FC} from 'react';
 import awning_window_bg from "../../assets/images/awning_window_bg.png";
+import order from "../../assets/images/order-bg.png";
 import Button from "../../components/button/Button";
 import SectionTop from "../../sections/section_top/SectionTop";
 import guarant_window_left from "../../assets/images/guarant-window-left.png";
 import guarant_window_right from "../../assets/images/guarant-window-right.png";
 import SectionGuarantee from "../../sections/section_guarantee/SectionGuarantee";
+import SectionWindowsDelivery from "../../sections/section_windows_delivery/SectionWindowsDelivery";
+import SectionContactUs from "../../sections/section_contact_us/SectionContactUs";
+import SectionSlider from "../../sections/section_slider/SectionSlider";
 
 const AwningWindow: FC = () => {
     return (
@@ -25,6 +29,9 @@ const AwningWindow: FC = () => {
                 installation_periods={1}
                 on_products_years={10}
             />
+            <SectionSlider forOrder={"windowSlide"} />
+            <SectionWindowsDelivery />
+            <SectionContactUs forOrder="window" backgroundOrder={order} />
         </div>
     );
 };

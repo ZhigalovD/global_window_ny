@@ -1,6 +1,8 @@
 import React, {FC} from 'react';
 import classes from "./Main.module.scss"
 import hero from "../../assets/images/hero-bg.png"
+import Button from "../../components/button/Button";
+import SectionSlider from "../../sections/section_slider/SectionSlider";
 
 const Main: FC = () => {
     return (
@@ -11,8 +13,10 @@ const Main: FC = () => {
                         <p>WINDOW AND DOOR INSTALLATION</p>
                         <p style={{color: "#1399C4"}}>IN NEW YORK</p>
                     </h1>
+                    <Button>GET PRICE</Button>
                 </div>
             </div>
+            <SectionSlider forOrder={"windowSlide"} />
         </div>
     );
 };
