@@ -2,7 +2,7 @@ import React, {FC} from 'react';
 import Button from "../../components/button/Button";
 
 interface Props {
-    forOrder: string;
+    forOrder: "window" | "door";
     backgroundOrder: string;
 }
 

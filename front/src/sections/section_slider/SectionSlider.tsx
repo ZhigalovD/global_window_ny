@@ -1,5 +1,5 @@
 import React, {FC} from 'react';
-import Slider from "react-slick";
+import Slider, {Settings} from "react-slick";
 import windowSlide1 from "../../assets/images/window_slider/1.jpeg";
 import windowSlide2 from "../../assets/images/window_slider/2.jpeg";
 import windowSlide3 from "../../assets/images/window_slider/3.jpeg";
@@ -147,11 +147,11 @@ const showerDoorSlide = [
 ]
 
 interface Props {
-    forOrder: string;
+    forOrder: "windowSlide" | "doorSlide" | "showerDoorSlide";
 }
 
 const SectionSlider:FC<Props> = ({forOrder}) => {
-    const settings = {
+    const settings: Settings = {
         dots: false,
         infinite: false,
         speed: 500,
